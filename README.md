@@ -1,6 +1,6 @@
 # Content-Aware Texturing for Gaussian Splatting
 Panagiotis Papantonakis, Georgios Kopanas, Frédo Durand, George Drettakis<br>
-| [Webpage](https://repo-sam.inria.fr/nerphys/gs-texturing/) | [Full Paper](https://repo-sam.inria.fr/nerphys/gs-texturing/ContentAwareTexturedGaussians-authors.pdf) || [Other GRAPHDECO Publications](http://www-sop.inria.fr/reves/publis/gdindex.php) | [NERPHYS project page](https://project.inria.fr/nerphys/) | <br>
+| [Webpage](https://repo-sam.inria.fr/nerphys/gs-texturing/) | [Full Paper](https://repo-sam.inria.fr/nerphys/gs-texturing/ContentAwareTexturedGaussians-authors.pdf) | [Arxiv](https://arxiv.org/abs/2512.02621) | [Other GRAPHDECO Publications](http://www-sop.inria.fr/reves/publis/gdindex.php) | [NERPHYS project page](https://project.inria.fr/nerphys/) | <br>
 ![Teaser image](assets/teaser.png)
 
 This repository contains the code of the paper "Content-Aware Texturing for Gaussian Splatting", which can be found [here](https://repo-sam.inria.fr/nerphys/gs-texturing).
