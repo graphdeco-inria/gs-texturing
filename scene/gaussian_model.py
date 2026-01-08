@@ -163,7 +163,7 @@ class GaussianModel:
     def _calculate_active_texture_resolution(self, square: bool = False, powers_of_two: bool = False, return_differentiable: bool = False, clamp_max:bool = True):
         # Find the primitive's extent in canonical space, that is, how much is the extent
         # in standard deviation units
-        canonical_extent = 2 * torch.sqrt(2 * torch.log(255*torch.clamp_min(self.get_opacity.detach(), 1/255)))
+        canonical_extent = 2 * torch.sqrt(torch.log(255*torch.clamp_min(self.get_opacity.detach(), 1/255)))
         canonical_extent.clamp_max_(2 * self._texture_cutoff)
 
         # Multiply by scaling to get the extent in world units
