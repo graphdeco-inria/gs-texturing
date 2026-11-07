@@ -367,7 +367,7 @@ class GaussianModel:
             texture_map = texture_map_codebook.evaluate().view(-1, 3)
             
         else:
-            texture_map = torch.load(os.path.join(path, "texture_map.pt"))
+            texture_map = torch.load(os.path.join(path, "texture_map.pt"), weights_only=True)
 
         # Unactivate texture map values
         texture_map = self.inverse_texture_map_activation(texture_map)
